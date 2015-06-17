@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     :text => 'Copyright 2015 Gigya. See the terms of service at http://www.gigya.com/terms-of-service/'
   }
   s.author       = 'Gigya'
-  s.source       = { :http => "https://raw.githubusercontent.com/jshier/GigyaSDK/master/#{s.version}/GigyaSDK.zip" }
+  s.source       = { :http => "https://raw.githubusercontent.com/lifely/GigyaSDK/master/#{s.version}/GigyaSDK.zip" }
   s.platform     = :ios, '7.0'
   s.source_files = 'GigyaSDK.framework/Versions/A/Headers/*.h'
   s.preserve_paths = 'GigyaSDK.framework/*'
